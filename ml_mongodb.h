@@ -17,9 +17,9 @@
 *********************************************************/
 
 /** MODULE SPECIFIC INFORMATION **/
-#define MODULE_NAME			"Base Module"
-#define	MODULE_AUTHOR		"anon"
-#define MODULE_VERSION		1.0
+#define MODULE_NAME			"MongoDB"
+#define	MODULE_AUTHOR		"Neproify"
+#define MODULE_VERSION		0.1
 
 #include "Common.h"
 #include "CFunctions.h"

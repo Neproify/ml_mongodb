@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="7.10"
-	Name="ml_base"
+	Name="ml_mongodb"
 	ProjectGUID="{132A627F-058D-46F8-BCBB-63B6C8D2CC1A}"
 	Keyword="MFCDLLProj">
 	<Platforms>
@@ -35,13 +35,13 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="./lib/lua5.1.lib"
-				OutputFile="$(OutDir)/ml_base.dll"
+				OutputFile="$(OutDir)/ml_mongodb.dll"
 				LinkIncremental="2"
 				IgnoreDefaultLibraryNames="MSVCRT"
 				ModuleDefinitionFile=""
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"
-				ImportLibrary="$(OutDir)/ml_base.lib"
+				ImportLibrary="$(OutDir)/ml_mongodb.lib"
 				TargetMachine="1"/>
 			<Tool
 				Name="VCMIDLTool"
@@ -91,14 +91,14 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="./lib/lua5.1.lib"
-				OutputFile="$(OutDir)/ml_base.dll"
+				OutputFile="$(OutDir)/ml_mongodb.dll"
 				LinkIncremental="1"
 				ModuleDefinitionFile=""
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
-				ImportLibrary="$(OutDir)/ml_base.lib"
+				ImportLibrary="$(OutDir)/ml_mongodb.lib"
 				TargetMachine="1"/>
 			<Tool
 				Name="VCMIDLTool"
@@ -144,7 +144,7 @@
 				RelativePath=".\CThreadData.cpp">
 			</File>
 			<File
-				RelativePath=".\ml_base.cpp">
+				RelativePath=".\ml_mongodb.cpp">
 			</File>
 			<Filter
 				Name="extra"
@@ -174,7 +174,7 @@
 				RelativePath=".\CThreadData.h">
 			</File>
 			<File
-				RelativePath=".\ml_base.h">
+				RelativePath=".\ml_mongodb.h">
 			</File>
 			<Filter
 				Name="extra"

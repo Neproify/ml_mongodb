@@ -30,7 +30,5 @@ class CFunctions
 {
 public:
 
-		static int		HelloWorld			( lua_State* luaVM );
-
 };
 #endif

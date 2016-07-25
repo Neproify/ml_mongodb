@@ -16,7 +16,7 @@
 *
 *********************************************************/
 
-#include "ml_base.h"
+#include "ml_mongodb.h"
 
 // Initialisation function (module entrypoint)
 MTAEXPORT bool InitModule ( ILuaModuleManager *pManager, char *szModuleName, char *szAuthor, float *fVersion )
@@ -36,7 +36,6 @@ MTAEXPORT void RegisterFunctions ( lua_State * luaVM )
 {
 	if ( pModuleManager && luaVM )
 	{
-		pModuleManager->RegisterFunction ( luaVM, "helloWorld", CFunctions::HelloWorld );
 	}
 }
 
